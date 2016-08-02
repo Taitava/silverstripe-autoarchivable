@@ -23,8 +23,8 @@ class AutoArchivableExtension extends DataExtension
 	public function updateSummaryFields(&$fields)
 	{
 		$fields = $fields + array(
-			'AutoArchiveOn'		=> 'AutoArchiveOn',
-			'AutoArchiveDate'	=> 'AutoArchiveDate',
+			'AutoArchiveOn'		=> _t('AutoArchivableExtension.AutoArchiveOn'),
+			'AutoArchiveDate'	=> _t('AutoArchivableExtension.AutoArchiveDate'),
 		);
 	}
 	
@@ -41,8 +41,7 @@ class AutoArchivableExtension extends DataExtension
 	
 	public function AutoArchiveOn()
 	{
-		$value = $this->owner->AutoArchiveOn ? 'Yes' : 'No';
-		return _t("AutoArchiveExtension.$value", $value);
+		return $this->owner->AutoArchiveOn ? _t('AutoArchivableExtension.Yes','Yes') : _t('AutoArchivableExtension.No','No');
 	}
 	
 	public function onBeforeWrite()

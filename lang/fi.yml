@@ -1,0 +1,13 @@
+fi:
+  AutoArchivableExtension:
+    ArchiveNow: 'Arkistoi nyt'
+    AutoArchiveAutomaticDestination: '(Valitse arkistoinnin kohdesijainti automaattisesti)'
+    AutoArchiveDate: 'Arkistointipäivä'
+    AutoArchiveDestination: 'Arkistoidaan sivulle'
+    AutoArchiveOn: 'Automaattinen arkistointi päällä'
+    AutoArchiveTab: Arkistointi
+    'No': 'Ei'
+    'Yes': 'Kyllä'
+  AutoArchiveDestinationExtension:
+    Archivables: Arkistoitavat
+    ArchivablesTabDescription: 'Tämä lista näyttää kaikki sellaiset sivut, jotka tullaan arkistoimaan tämän sivun alaisuuteen.'

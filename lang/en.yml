@@ -1,0 +1,13 @@
+en:
+  AutoArchivableExtension:
+    ArchiveNow: 'Archive now'
+    AutoArchiveAutomaticDestination: '(Decide a destination automatically)'
+    AutoArchiveDate: 'When to archive'
+    AutoArchiveDestination: 'Archive to'
+    AutoArchiveOn: 'Archive this page automatically'
+    AutoArchiveTab: Archiving
+    'No': 'No'
+    'Yes': 'Yes'
+  AutoArchiveDestinationExtension:
+    Archivables: Archivables
+    ArchivablesTabDescription: 'This list shows all pages that will be moved under this page when/if they will be archived in the future.'
