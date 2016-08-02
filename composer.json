@@ -1,0 +1,20 @@
+{
+	"name": "taitava/silverstripe-autoarchivable",
+	"description": "A library that automatically moves pages to a specific archive page when they expire.",
+	"type": "silverstripe-module",
+	"homepage": "",
+	"keywords": ["silverstripe", "archive"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jarkko Linnanvirta",
+			"email": "posti@taitavvasti.fi"
+		}
+	],
+	"require": {
+		"silverstripe/framework": "~3.1"
+	},
+	"extra": {
+		"installer-name": "autoarchivable",
+	}
+}
